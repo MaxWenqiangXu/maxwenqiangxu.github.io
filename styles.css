@@ -33,7 +33,7 @@
   border: 1px solid #302c71;
 }
 #cssmenu ul > li {
-  float: center;
+  float: left;
   list-style: none;
 }
 #cssmenu ul > li > a {
