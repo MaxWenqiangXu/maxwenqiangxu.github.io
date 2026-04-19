@@ -111,3 +111,12 @@
 #cssmenu > ul > li > ul > li > ul > li {
   float: none;
 }
+
+#cssmenu ul {
+  display: flex;
+  flex-wrap: nowrap;        /* no wrapping /
+  overflow-x: auto;         / scroll if too wide /
+  white-space: nowrap;
+  gap: 8px;                 / smaller gap helps /
+}
+#cssmenu li a { padding: 4px 8px; } / tighten padding */
